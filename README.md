@@ -11,14 +11,16 @@ Usage:
    - Any following line is an assigned/allocated subnet
 
 2a06:1287::/32
+
 2a06:1287:2::/48
+
 2a06:1287:3::/48
+
 2a06:1287:10::/44
+
 2a06:1287:30::/44
-2a06:1287:100::/40
-2a06:1287:200::/40
-2a06:1287:300::/40
-2a06:1287:400::/43
+
+etc
 
 3. run with:
    - python3 ips.py FILENAME
