@@ -1,9 +1,12 @@
 # free-ipv6
 This calculates free subnets in a specific netblock when supplied with the netblock and the already used subnets.
+
 Requires: python3 (Tested on Linux, no reason it should not work on anything else also)
+
 Notice: By default this only prints free /48 and larger (smaller cannot be used for BGP), this can be easily adapted in the code
 
 Usage:
+
 1. clone repo
 
 2. create file with your network and all used subnets like this:
